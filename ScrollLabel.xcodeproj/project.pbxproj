@@ -15,6 +15,8 @@
 		E405896A1ECAC8A20084E34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40589681ECAC8A20084E34D /* LaunchScreen.storyboard */; };
 		E40589751ECAC8A20084E34D /* ScrollLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40589741ECAC8A20084E34D /* ScrollLabelTests.m */; };
 		E40589801ECAC8A20084E34D /* ScrollLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E405897F1ECAC8A20084E34D /* ScrollLabelUITests.m */; };
+		E405898F1ECAC8D00084E34D /* ScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E405898E1ECAC8D00084E34D /* ScrollLabelView.m */; };
+		E4789C921ECB03DD00FF0200 /* Animate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4789C911ECB03DD00FF0200 /* Animate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E405897B1ECAC8A20084E34D /* ScrollLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E405897F1ECAC8A20084E34D /* ScrollLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollLabelUITests.m; sourceTree = "<group>"; };
 		E40589811ECAC8A20084E34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E405898D1ECAC8D00084E34D /* ScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLabelView.h; sourceTree = "<group>"; };
+		E405898E1ECAC8D00084E34D /* ScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLabelView.m; sourceTree = "<group>"; };
+		E4789C901ECB03DD00FF0200 /* Animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animate.h; sourceTree = "<group>"; };
+		E4789C911ECB03DD00FF0200 /* Animate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +111,15 @@
 				E405895E1ECAC8A20084E34D /* AppDelegate.m */,
 				E40589601ECAC8A20084E34D /* ViewController.h */,
 				E40589611ECAC8A20084E34D /* ViewController.m */,
+				E4789C901ECB03DD00FF0200 /* Animate.h */,
+				E4789C911ECB03DD00FF0200 /* Animate.m */,
 				E40589631ECAC8A20084E34D /* Main.storyboard */,
 				E40589661ECAC8A20084E34D /* Assets.xcassets */,
 				E40589681ECAC8A20084E34D /* LaunchScreen.storyboard */,
 				E405896B1ECAC8A20084E34D /* Info.plist */,
 				E405895A1ECAC8A20084E34D /* Supporting Files */,
+				E405898D1ECAC8D00084E34D /* ScrollLabelView.h */,
+				E405898E1ECAC8D00084E34D /* ScrollLabelView.m */,
 			);
 			path = ScrollLabel;
 			sourceTree = "<group>";
@@ -275,6 +285,8 @@
 			files = (
 				E40589621ECAC8A20084E34D /* ViewController.m in Sources */,
 				E405895F1ECAC8A20084E34D /* AppDelegate.m in Sources */,
+				E4789C921ECB03DD00FF0200 /* Animate.m in Sources */,
+				E405898F1ECAC8D00084E34D /* ScrollLabelView.m in Sources */,
 				E405895C1ECAC8A20084E34D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +521,7 @@
 				E40589861ECAC8A20084E34D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E40589871ECAC8A20084E34D /* Build configuration list for PBXNativeTarget "ScrollLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				E40589891ECAC8A20084E34D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E405898A1ECAC8A20084E34D /* Build configuration list for PBXNativeTarget "ScrollLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				E405898C1ECAC8A20084E34D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

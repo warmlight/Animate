@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ScrollLabelView : UIView
+@property (strong, nonatomic) NSString *text;
+@property (strong, nonatomic) UIFont *font;
+@property (strong, nonatomic) UIColor *textColor;
+
+- (void)setTitle:(NSString *)text font:(UIFont *)font ;
 
 @end

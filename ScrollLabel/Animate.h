@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Animate : NSObject
-
++ (CALayer *)circle;
++ (CALayer *)wave;
++ (CALayer *)triangle;
++ (CALayer *)grid;
++ (CALayer *)shake;
 @end
